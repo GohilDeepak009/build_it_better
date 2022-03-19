@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+body
+{
+    background-image: linear-gradient(rgba(61, 61, 61, 0.2),rgba(61, 61, 61, 0.2)),url("../assets/thanos_hand.jpg");
+    background-size: cover;
+    width:100%;
+    height: 100vh;
+    font-family: Oxygen,Roboto,sans-serif;
+}
+
+.nav-bar
+{
+    margin-left: 5%;
+    width:90%;
+    background-color: rgba(245, 245, 245, 0.3);
+    /* opacity: 0.5; */
+    border-radius: .7em;
+    margin-top:1.5em;
+}
+.logo
+{
+    height:50px;
+    margin-top: .5em;
+    margin-left: 1em;
+    opacity: 1;
+    display: inline-block;
+}
+nav
+{
+    display: inline-block;
+    margin-left: 40em;
+}
+nav ul li
+{
+    display: inline-block;
+    margin-left: .9em;
+    font-size: 1.3em;
+    opacity: 1;
+}
+nav ul li a
+{
+    color:white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.hero
+{
+    /* display: flex; */
+    margin-top: 5em;
+    margin-left: 0em;
+}
+
+.card
+{
+    background-color:rgba(245, 245, 245, 0.3);
+    height: 13em;
+    width:  20em;
+    border-radius: 1em;
+    margin-left: 5em;
+    margin-top: 2em;
+    transition: transform 0.5;
+    display:inline-block;
+    box-sizing: border-box;
+    cursor: pointer;
+    /* text-align: center; */
+}
+
+.card ul li
+{
+    list-style: none;
+    color:white;
+    margin-top: 0.5em;
+}
+
+.icon
+{
+    height: 3em;
+    width:3em;
+    border-radius:2em;
+    margin-left: 6em;
+    margin-top: -5em;
+}
+
+.subhead
+{
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+#preloader
+{
+    background: #000 url(../assets/loading.gif) no-repeat center center;
+    background-size: 12;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
